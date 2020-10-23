@@ -1,0 +1,152 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Work Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+/* menu section */
+.jon-header .navbar-brand {
+  font-size: 25px;
+  font-weight: 500;
+}
+.jon-header span {
+  display: inline-block;
+  background: #6278df;
+  color: #fff;
+  height: 43px;
+  width: 40px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 28px;
+  position: relative;
+  top: 3px;
+}
+.jon-menu .nav-link {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+/* main css */
+.slider-section {
+  background: url(https://i.ibb.co/r0JphkC/mbr-10.jpg) no-repeat right top;
+  max-width: 100%;
+  padding: 150px 0;
+  position: relative;
+  z-index: 1;
+}
+.slider-section::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+.slider-caption {
+  word-wrap: break-word;
+}
+.slider-caption h4 {
+  margin-bottom: 35px;
+  font-weight: 400;
+}
+.slider-caption h1 {
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+.slider-caption .form-control {
+  padding: 15px;
+}
+.slider-caption .btn {
+  padding: 9px;
+  font-size: 29px;
+  font-weight: 500;
+}
+/* end */
+.feature-item {
+  height: 250px;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+}
+.left-img-sec {
+  width: 40%;
+  overflow: hidden;
+  border-radius: 5px 0 0 5px;
+}
+.left-text-sec {
+  width: 60%;
+  padding: 25px;
+}
+.left-img-sec img {
+  height: 100%;
+  width: auto !important;
+  max-width: inherit;
+  position: relative;
+  left: -80px;
+}
+/* hover */
+.portfolio-section {
+}
+.portfolio-section a {
+  position: relative;
+  display: block;
+}
+.portfolio-section a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(45, 18, 119, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s;
+}
+.portfolio-section a:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.pricing-item {
+  background-color: white;
+  padding: 50px 80px;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.6);
+}
+.pricing-item ul {
+}
+.pricing-item ul li {
+  font-size: 25px;
+  line-height: 3;
+}
+.pricing-item ul li span {
+  display: inline-block;
+  width: 43px;
+  color: #6278df;
+}
+
+.author {
+  width: 250px;
+  margin: auto;
+}
+.author img {
+  width: 70px;
+  margin-right: 18px;
+}
+.details {
+  text-align: left;
+  position: relative;
+}
+
+.about img {
+  width: 143px;
+  margin-top: -120px;
+  margin-bottom: 30px;
+}
